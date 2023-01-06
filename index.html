@@ -1,0 +1,30 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font_awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/onsenui.min.css">
+  <link rel="stylesheet" href="css/onsen-css-components.min.css">
+  <script src="js/onsenui.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <title>Cari Film</title>
+</head>
+<body>
+  <ons-page>
+    </ons-toolbar>
+    <div style="height: 200px; padding: 1px 0 0 0;">
+    <div class="card card--material">
+      <div class="card__title card--material__title" style="text-align: center;">Cari Film </div>
+      <div class="card__content card--material__content" style="text-align: justify;">
+        <ons-search-input placeholder="Masukkan Judul Film" id="input" onchange="cari()"></ons-search-input>
+        <br>
+        <div id="isiPencarianFilm"></div>
+      </div>
+    </div>
+  </div>
+  </ons-page>
+
+  <script src="script.js"></script>
+</body>
+</html>
